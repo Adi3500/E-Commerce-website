@@ -1,0 +1,5 @@
+Receipt for Order
+Product: goku t shirt
+Price: ₹546
+Delivery Charge: ₹50
+Total Price: ₹546

@@ -1,0 +1,5 @@
+Receipt for Order
+Product: kakashi hoodies
+Price: ₹799
+Delivery Charge: ₹50
+Total Price: ₹3196

@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-3: sword key chain
+Price: ₹599
+total Price: ₹1998

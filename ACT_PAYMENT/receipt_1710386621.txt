@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-4: leaf necklace
+Price: ₹199
+total Price: ₹1498

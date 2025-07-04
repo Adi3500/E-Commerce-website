@@ -1,0 +1,9 @@
+Receipt for Order
+Type: Hoodie
+Price: ₹4500
+name: 
+mobile_no: 7958545658
+email: adityavishwakarma3500@gmail.com
+user address: 56 bhim road pandeshra surat
+seller name: aman
+seller contact: 6789565654

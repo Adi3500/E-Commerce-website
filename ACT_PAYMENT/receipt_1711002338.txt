@@ -1,0 +1,10 @@
+Receipt for Order
+Total Product : 2
+username: lav
+name: lavkush
+mobile_no: 7958545658
+email:  lav3@gmail.com
+user address: 56 bhim road pandeshra surat
+total Price: ₹2297
+seller name: rahul
+seller contact: 7894561289

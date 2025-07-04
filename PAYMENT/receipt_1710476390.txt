@@ -1,0 +1,5 @@
+Receipt for Order
+Product: zoro t shirt
+Price: ₹599
+Delivery Charge: ₹50
+Total Price: ₹1198

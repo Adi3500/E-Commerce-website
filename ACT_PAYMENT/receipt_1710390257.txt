@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-4: iron man t shirt
+Price: ₹799
+total Price: ₹2397

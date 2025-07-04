@@ -1,0 +1,5 @@
+Receipt for Order
+Product: uchicha necklace
+Price: ₹399
+Delivery Charge: ₹50
+Total Price: ₹1247

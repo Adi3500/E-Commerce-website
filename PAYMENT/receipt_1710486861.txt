@@ -1,0 +1,5 @@
+Receipt for Order
+Product: straw hat key chain
+Price: ₹200
+Delivery Charge: ₹50
+Total Price: ₹400

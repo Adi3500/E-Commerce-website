@@ -1,0 +1,10 @@
+Receipt for Order
+Total Product : 1
+username: adi3500
+name: Aditya vishwakarma
+mobile_no: 7990
+email: custom4799@gmail.com
+user address: 786 hari nagar udhan surat 
+total Price: ₹1596
+seller name: aman
+seller contact: 6789565654

@@ -1,0 +1,3 @@
+Receipt for Order
+Type: Full-sleeve T-shirt
+Price: ₹4000

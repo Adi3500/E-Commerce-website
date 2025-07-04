@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-1: one pice t shirt
+Price: ₹799
+total Price: ₹799

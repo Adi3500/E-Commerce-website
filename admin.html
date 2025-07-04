@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> -->
+    <!-- <script src="angular_route.js"></script> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+
+
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url("image/black.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 10px 20px;
+            height: auto;
+        }
+        
+        .logo {
+            width: 100px;
+            height: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .nav-links {
+            text-align: center;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .login-button {
+            background-color: #ec502d;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .login-button:hover {
+            background-color: #FF8C66;
+        }
+        
+        #login-menu a {
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+        
+        #login-menu {
+            position: absolute;
+            display: none;
+            background-color: #333;
+            min-width: 150px;
+            right: 180px;
+        }
+        
+        #login:hover #login-menu {
+            display: block;
+        }
+        
+        #login-menu a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body ng-app="myapp">
+
+
+    <div class="navbar" ng-controller="usercontroller">
+        <div class="logo">
+            <img src="image/logo.jpg" alt="Logo">
+
+            <h1 style="color:green">ZORO-TO</h1>
+        </div>
+        <div class="nav-links">
+            <a href="dashboard.php">Home</a>
+            <a href="category.php">category</a>
+            <a href="productMan.php">product</a>
+            <a href="userMan.php">user</a>
+            <a href="sellerman.php">seller</a>
+
+        </div>
+        <ul>
+            <li id="login">
+                <a href="login.php"><button class="login-button">{{ username }}</button></a>
+                <div id="login-menu">
+                    <a href="login.php">Logout</a>
+                    <!-- <a href="registration.php">Register</a> -->
+                </div>
+        </ul>
+    </div>
+    <ng-view>
+
+    </ng-view>
+
+</body>
+
+</html>
+
+<script>
+    var app = angular.module("myapp", ['ngRoute']);
+
+    app.config(["$routeProvider", function($routeProvider) {
+        $routeProvider.
+        when("/category", {
+            templateUrl: "category.php"
+
+        }).
+        when("/productMan", {
+            templateUrl: "productMan.php"
+        }).
+        when("/userMan", {
+            templateUrl: "userMan.php"
+        }).
+        when("/sellerman", {
+            templateUrl: "sellerman.php"
+        }).
+        when("/", {
+            templateUrl: "dashboard.php"
+        });
+        // }).
+        // otherwise({
+        //     redirectTo: "admin.html#!/user_home"
+        // });
+
+    }]);
+    app.controller('usercontroller', function($scope, $http) {
+        $http.get('admin_display.php')
+            .then(function(response) {
+                if (response.data.username) {
+                    $scope.username = response.data.username;
+                } else {
+                    // Handle the case where session data is not available
+                }
+            })
+            .catch(function(error) {
+                // Handle errors
+            });
+    });
+</script>

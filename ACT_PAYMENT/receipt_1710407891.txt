@@ -1,0 +1,10 @@
+Receipt for Order
+Total Product : 3
+username: lav
+name: lavkush
+mobile_no: 7958545658
+email:  lav3@gmail.com
+user address: 
+total Price: ₹1797
+seller name: 
+seller contact: 7894561289

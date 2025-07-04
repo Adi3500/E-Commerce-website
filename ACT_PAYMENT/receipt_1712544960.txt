@@ -1,0 +1,10 @@
+Receipt for Order
+Total Product : 1
+username: lav
+name: lavkush
+mobile_no: 7958545658
+email: adityavishwakarma3500@gmail.com
+user address: 56 bhim road pandeshra surat
+total Price: ₹500
+seller name: aman
+seller contact: 6789565654

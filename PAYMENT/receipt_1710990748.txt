@@ -1,0 +1,5 @@
+Receipt for Order
+Product: steel key chain
+Price: ₹500
+Delivery Charge: ₹50
+Total Price: ₹3000

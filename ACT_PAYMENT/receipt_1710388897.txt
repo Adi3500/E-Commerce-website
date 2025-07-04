@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-3: zoro t shirt
+Price: ₹599
+total Price: ₹1398

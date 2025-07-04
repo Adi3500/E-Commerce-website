@@ -1,0 +1,5 @@
+Receipt for Order
+Product: leaf necklace
+Price: ₹199
+Delivery Charge: ₹50
+Total Price: ₹199

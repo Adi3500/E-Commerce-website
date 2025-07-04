@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-2: bleach hoodies
+Price: ₹799
+total Price: ₹799

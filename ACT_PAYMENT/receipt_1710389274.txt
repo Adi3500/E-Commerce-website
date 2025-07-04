@@ -1,0 +1,4 @@
+Receipt for Order
+Product no-3: straw hat key chain
+Price: ₹200
+total Price: ₹1598

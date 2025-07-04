@@ -1,0 +1,5 @@
+Receipt for Order
+Product: sword key chain
+Price: ₹599
+Delivery Charge: ₹50
+Total Price: ₹599
