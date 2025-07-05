@@ -1,10 +1,6 @@
 username:aditya
 password:123
-Here’s a sample **README.md** file for your anime-themed E-Commerce website project. You can customize further based on your actual folder structure or feature details:
 
----
-
-````markdown
 # Anime Merchandise E-Commerce Website
 
 An anime-themed e-commerce platform for selling products like clothing, necklaces, and keychains. This project includes features for customers, sellers, delivery personnel, and admins. Users can also place orders for custom-designed merchandise.
@@ -97,11 +93,7 @@ This project is for educational purposes only.
 
 ### 👨‍💻 Developed By
 
-* Your Name (Currently pursuing MCA, BCA Graduate)
+* Aditya Vishwakarma (Currently pursuing MCA, BCA Graduate)
 
 ```
 
----
-
-Let me know if you want a version with images/badges, or if you want me to generate a logo or homepage screenshot.
-```
